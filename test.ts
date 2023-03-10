@@ -100,6 +100,7 @@ export class ActivitybarPart extends Part implements IPaneCompositeSelectorPart 
 	private menuBarContainer: HTMLElement | undefined;
 
 	private accountsActivityAction: ActivityAction | undefined;
+	private accountsActivityAction: ActivityAction | undefined;
 
 	private readonly accountsActivity: ICompositeActivity[] = [];
 
