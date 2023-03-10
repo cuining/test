@@ -117,11 +117,7 @@ export class ActivitybarPart extends Part implements IPaneCompositeSelectorPart 
 	
 	private compositeBarContainer: HTMLElement | undefined;
 
-	private globalActivityAction: ActivityAction | undefined;
-	private globalActivityActionBar: ActionBar | undefined;
-	private globalActivitiesContainer: HTMLElement | undefined;
-	private readonly globalActivity: ICompositeActivity[] = [];
-
+	
 	constructor(
 		private readonly paneCompositePart: IPaneCompositePart,
 		@IInstantiationService private readonly instantiationService: IInstantiationService,
