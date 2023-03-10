@@ -96,17 +96,7 @@ export class ActivitybarPart extends Part implements IPaneCompositeSelectorPart 
 
 	private content: HTMLElement | undefined;
 
-	private menuBar: CustomMenubarControl | undefined;
-	private menuBarContainer: HTMLElement | undefined;
-
-	private compositeBar: CompositeBar;
-	private compositeBarContainer: HTMLElement | undefined;
-
-	private globalActivityAction: ActivityAction | undefined;
-	private globalActivityActionBar: ActionBar | undefined;
-	private globalActivitiesContainer: HTMLElement | undefined;
-	private readonly globalActivity: ICompositeActivity[] = [];
-
+	
 	private accountsActivityAction: ActivityAction | undefined;
 
 	private readonly accountsActivity: ICompositeActivity[] = [];
@@ -120,6 +110,17 @@ export class ActivitybarPart extends Part implements IPaneCompositeSelectorPart 
 	private hasExtensionsRegistered: boolean = false;
 
 	private readonly enabledViewContainersContextKeys: Map<string, IContextKey<boolean>> = new Map<string, IContextKey<boolean>>();
+
+	private menuBar: CustomMenubarControl | undefined;
+	private menuBarContainer: HTMLElement | undefined;
+
+	private compositeBar: CompositeBar;
+	private compositeBarContainer: HTMLElement | undefined;
+
+	private globalActivityAction: ActivityAction | undefined;
+	private globalActivityActionBar: ActionBar | undefined;
+	private globalActivitiesContainer: HTMLElement | undefined;
+	private readonly globalActivity: ICompositeActivity[] = [];
 
 	constructor(
 		private readonly paneCompositePart: IPaneCompositePart,
