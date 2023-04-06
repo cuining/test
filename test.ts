@@ -98,6 +98,8 @@ export class ActivitybarPart extends Part implements IPaneCompositeSelectorPart 
 
 	private menuBar: CustomMenubarControl | undefined;
 	private menuBarContainer: HTMLElement | undefined;
+        private menuBarContaine1r: HTMLElement | undefined;
+        private menuBarContaine2r: HTMLElement | undefined;
 
 	private compositeBar: CompositeBar;
 	private accountsActivityAction: ActivityAction | undefined;
