@@ -57,8 +57,7 @@ interface IPlaceholderViewContainer {
 
 interface IPlaceholderViewContainer2 {
 	readonly id: string;
-	readonly sex: string;
-	readonly name?: string;
+	
 	readonly iconUrl?: UriComponents;
 	readonly themeIcon?: ThemeIcon;
 	readonly isBuiltin?: boolean;
