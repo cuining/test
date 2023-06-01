@@ -55,6 +55,15 @@ interface IPlaceholderViewContainer {
 	readonly views?: { when?: string }[];
 }
 
+interface IPlaceholderViewContainer2 {
+	readonly id: string;
+	
+	readonly iconUrl?: UriComponents;
+	readonly themeIcon?: ThemeIcon;
+	readonly isBuiltin?: boolean;
+	readonly views?: { when?: string }[];
+}
+
 interface IPinnedViewContainer {
 	readonly id: string;
 	readonly pinned: boolean;
