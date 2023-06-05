@@ -64,9 +64,6 @@ interface IPinnedViewContainer {
 
 const a = 123;
 
-
-const a = 123;
-
 interface ICachedViewContainer {
 	readonly id: string;
 	name?: string;
