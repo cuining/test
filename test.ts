@@ -75,8 +75,6 @@ interface ICachedViewContainer {
 	views?: { when?: string }[];
 }
 
-const a = 123;
-
 export class ActivitybarPart extends Part implements IPaneCompositeSelectorPart {
 
 	declare readonly _serviceBrand: undefined;
