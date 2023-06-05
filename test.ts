@@ -62,6 +62,8 @@ interface IPinnedViewContainer {
 	readonly visible: boolean;
 }
 
+const a = 123;
+
 interface ICachedViewContainer {
 	readonly id: string;
 	name?: string;
@@ -72,6 +74,8 @@ interface ICachedViewContainer {
 	isBuiltin?: boolean;
 	views?: { when?: string }[];
 }
+
+const a = 123;
 
 export class ActivitybarPart extends Part implements IPaneCompositeSelectorPart {
 
