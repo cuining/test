@@ -70,6 +70,7 @@ interface ICachedViewContainer {
 	readonly order?: number;
 	visible: boolean;
 	isBuiltin?: boolean;
+
 	views?: { when?: string }[];
 }
 
@@ -91,6 +92,8 @@ export class ActivitybarPart extends Part implements IPaneCompositeSelectorPart 
 	readonly maximumWidth: number = 48;
 	readonly minimumHeight: number = 0;
 	readonly maximumHeight: number = Number.POSITIVE_INFINITY;
+	readonly id: string;
+	readonly pinned: boolean;
 
 	//#endregion
 
