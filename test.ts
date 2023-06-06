@@ -93,7 +93,7 @@ export class ActivitybarPart extends Part implements IPaneCompositeSelectorPart 
 	readonly minimumHeight: number = 0;
 	readonly maximumHeight: number = Number.POSITIVE_INFINITY;
 	readonly id: string;
-	readonly pinned: boolean;
+        pinned: boolean; // test
 
 	//#endregion
 
