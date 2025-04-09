@@ -62,7 +62,7 @@ interface IPinnedViewContainer {
 	readonly visible: boolean;
 }
 
-const a = 123;
+const b=1
 
 interface ICachedViewContainer {
 	readonly id: string;
