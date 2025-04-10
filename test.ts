@@ -62,6 +62,8 @@ interface IPinnedViewContainer {
 	readonly visible: boolean;
 }
 
+a = 1
+
 interface ICachedViewContainer {
 	readonly id: string;
 	name?: string;
